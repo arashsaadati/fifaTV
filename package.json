@@ -1,0 +1,30 @@
+{
+  "name": "fifatv",
+  "version": "1.0.0",
+  "description": "Android TV HLS Stream Player",
+  "main": "index.js",
+  "scripts": {
+    "android": "react-native run-android",
+    "android-tv": "react-native run-android --variant=androidTvDebug",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "react": "18.2.0",
+    "react-native": "0.73.0",
+    "react-native-video": "^5.2.1",
+    "react-native-hls-player": "^2.0.0",
+    "react-native-gesture-handler": "^2.14.0",
+    "@react-native-tv/configs": "^8.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.23.0",
+    "@babel/preset-env": "^7.23.0",
+    "@babel/preset-react": "^7.22.0",
+    "@babel/preset-typescript": "^7.23.0",
+    "babel-jest": "^29.7.0",
+    "jest": "^29.7.0",
+    "typescript": "^5.2.0"
+  }
+}
