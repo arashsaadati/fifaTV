@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "android": "react-native run-android",
-    "android-tv": "react-native run-android --variant=androidTvDebug",
+    "android-tv": "react-native run-android",
     "start": "react-native start",
     "test": "jest",
     "lint": "eslint ."
@@ -14,9 +14,7 @@
     "react": "18.2.0",
     "react-native": "0.73.0",
     "react-native-video": "^5.2.1",
-    "react-native-hls-player": "^2.0.0",
-    "react-native-gesture-handler": "^2.14.0",
-    "@react-native-tv/configs": "^8.0.0"
+    "react-native-gesture-handler": "^2.14.0"
   },
   "devDependencies": {
     "@babel/core": "^7.23.0",
