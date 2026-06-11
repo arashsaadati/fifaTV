@@ -1,0 +1,43 @@
+# React Native
+/node_modules
+/.expo
+/.expo-shared
+/dist
+/npm-debug.*
+/*.jks
+/*.p8
+/*.p12
+/*.key
+/*.mobileprovision
+/*.orig.*
+/web-build
+/android/app/debug.keystore
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Android
+/android/.gradle
+/android/local.properties
+/android/app/libs
+/android/.idea
+/android/app/build
+/android/gradlew
+/android/gradlew.bat
+
+# Gradle
+/android/build
+
+# Environment
+.env
+.env.local
+
+# Misc
+*.log
+yarn-error.log
+npm-debug.log
