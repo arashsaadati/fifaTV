@@ -1,0 +1,9 @@
+{
+  "name": "fifatv",
+  "displayName": "FifaTV",
+  "version": "1.0.0",
+  "description": "Android TV HLS Stream Player",
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
